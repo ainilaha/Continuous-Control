@@ -17,6 +17,7 @@ In this environment, a double-jointed arm can move to target locations. A reward
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 Training process can ben view [here](https://github.com/ainilaha/Continuous-Control/blob/master/Continuous_Control.ipynb)
+
 A trained example usage can be view [here](https://github.com/ainilaha/Continuous-Control/blob/master/trained_model_robotic_arm.ipynb)
 
 ### Distributed Training
@@ -74,6 +75,7 @@ Follow the instructions in `Continuous_Control.ipynb` to get started with traini
 After you have successfully completed the project, you might like to solve the more difficult **Crawler** environment.
 
 Training process can ben view [here](https://github.com/ainilaha/Continuous-Control/blob/master/Crawler.ipynb)
+
 A trained example usage can be view [here](https://github.com/ainilaha/Continuous-Control/blob/master/trained_model_crawler.ipynb)
 
 ![Crawler][image2]
