@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Continuous-Control-Robotic-Arm.iml" filepath="$PROJECT_DIR$/.idea/Continuous-Control-Robotic-Arm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Continuous-Control.iml" filepath="$PROJECT_DIR$/.idea/Continuous-Control.iml" />
     </modules>
   </component>
 </project>
