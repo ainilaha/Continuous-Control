@@ -6,6 +6,10 @@ This project is implemented based on [deep-reinforcement-learning/p2_continuous-
 ## Algorithm
 
 The models are training `ddpg` function in the `Continuous_Control` notebook.
+The DDPG algorithm has two parts as shown below:
+![DDPG1](https://github.com/ainilaha/Continuous-Control/images/ddpg1.png)
+With soft update method as below:
+![soft update](https://github.com/ainilaha/Continuous-Control/images/soft_update.jpg)
 - `first score and its window`
 - `initialize the agents`
 - `loop over the agents`
@@ -13,7 +17,8 @@ The models are training `ddpg` function in the `Continuous_Control` notebook.
 - `The training process will stop when score is reached +30`
 - `reset the agent in every episode`
 - `save the scores in every episode`
-
+more detail can shown the algorithm from the [DDPG paper](https://arxiv.org/pdf/1509.02971.pdf):
+![soft update](https://github.com/ainilaha/Continuous-Control/images/ddpg_alg.jpg)
 
 The DDPG agent is implemented in `ddpg_agent.py`
 
@@ -44,7 +49,8 @@ The first layer is input layer with size as input size.
 The second and last layer has 512 and 256 neruals.
 
 ## Plot of rewards
-![Reward Plot](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/output/result.png?raw=true)
+![Arm Plot](https://github.com/ainilaha/Continuous-Control/images/arm_plit.png)
+![Crawler Plot](https://github.com/ainilaha/Continuous-Control/images/crawler_plit.png)
 
 ```
 
